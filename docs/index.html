@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="data.js"></script>
+  <!-- <script type="module" src="main.js"></script> -->
+  <script type="module" src="tarea.js"></script>
+
+  <title>Objetos, Importacion y Exportacion</title>
+</head>
+
+<style>
+
+  body{
+    margin: 0;
+    background-color: rgb(180, 150, 114);    
+  }
+
+  #main{
+    color: rgb(79, 79, 79);
+    background-color: rgb(236, 212, 166);
+    width: 85vw;
+    margin: 0 auto;
+    min-height: 100vh;
+  }
+
+  #main input,button{
+    margin: 1rem;
+    margin-right: 0;
+  }
+
+  .flex{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #Contactos{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .item{
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .item>img{
+    max-width: 250px;
+    border-radius: 10px;
+  }
+  .item>div{
+    width: 50%;
+  }
+</style>
+
+<body>
+  <div id="main">
+    <div id="Contactos">         
+    </div>
+    <input id="search" type="text" placeholder="Search..."><button>Buscar</button>
+  </div>  
+  
+</body>
+</html>
